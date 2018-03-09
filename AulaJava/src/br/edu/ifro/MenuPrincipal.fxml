@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="583.0" prefWidth="1085.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
+    <children>
+      <Accordion layoutX="168.0" layoutY="247.0" />
+      <Separator layoutX="6.0" layoutY="47.0" prefHeight="1.0" prefWidth="1085.0" />
+      <PointLight color="CHARTREUSE" layoutX="216.0" layoutY="213.0" lightOn="true" />
+      <Button layoutX="1023.0" layoutY="559.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="55.0" text="Sair" />
+      <Label layoutX="25.0" layoutY="555.0" text="João Afonso" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="258.0" layoutY="236.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="117.0" text="Agenda" />
+      <Separator layoutX="9.0" layoutY="555.0" prefHeight="1.0" prefWidth="1085.0" />
+      <Label layoutX="414.0" layoutY="7.0" text="Menu Principal">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="437.0" layoutY="236.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="117.0" text="Funcionario" />
+      <Button layoutX="595.0" layoutY="236.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="117.0" text="Cliente" />
+      <Button layoutX="757.0" layoutY="236.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="117.0" text="Atendimento" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="38.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>
